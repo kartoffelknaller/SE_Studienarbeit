@@ -1,8 +1,15 @@
-public class Kunde {
+public class Kunde implements IKundendaten {
 
     String KundenID;
 
-    // implementiert irgenein Interface, "IKundendaten" oder so
+    // implementiert irgendein Interface, "IKundendaten" oder so
     // ...
+
+    String vorname;
+    String name;
+    String geschlecht; // mwd
+    String geburtsdatum;
+    String adresse;
+    String IBAN;
 
 }

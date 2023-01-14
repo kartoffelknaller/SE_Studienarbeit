@@ -1,10 +1,11 @@
+import SonstigeServices.*;
+
 public class SonstigerService {
 
     int gesamtPreis;
-    Mietwagen mietwagen;        // diese Klassen müssen obviously noch erstellt werden
-    ShuttleBus schuttlebus;
-    Flugbuchung flugbuchung;
-    Wellness Wellness;
+    Mietwagen mietwagen = null;        // diese Klassen müssen obviously noch erstellt werden
+    Flugbuchung flugbuchung = null;
+    Wellness Wellness = null;
 
     int berechneGesamtpreis(int preis) {
         // ...
